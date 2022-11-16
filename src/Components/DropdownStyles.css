@@ -1,0 +1,229 @@
+/*======== Geral ==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color1: #FF3200;
+    --btn-primary: #FF7826;
+    --btn-hover: #FF3200;
+
+    --link-color: #0D6EFD;
+
+    --card-select: #E9ECEF;
+
+    --dropdown-color: #EDEFF3;
+    --paragraph: #212529;
+    --border-color: #BFC0C1;
+
+    --navbar : #212529;
+
+    --navbar-color: #9B9D9E;
+    --navbar-hover: white;
+
+    --color-title-start: #101828;
+
+    --card-partner: #495057;
+
+    --background: #F8F9FA;
+
+    
+
+
+}
+
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F9FA;
+}
+
+
+/*======== Mobille =========*/
+
+.fcamara {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+
+    margin: 16px 12px 28px 24px;
+
+}
+
+.link-main {
+    color: var(--paragraph);
+}
+
+.link-main:hover {
+    color: var(--navbar-color);
+}
+
+.btn-drop {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+
+    width: 100vw;
+    height: 82px;
+
+    color: var(--paragraph);
+    background-color:var(--dropdown-color);
+
+    display: flex; 
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0;
+    border-color: var(--border-color)
+}
+
+.btn-drop:hover {
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0;
+    border-color: var(--border-color)
+
+}
+
+.btn-dropdown {
+    background-color: var(--btn-primary);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+
+
+    width: 385px;
+    height: 38px;
+
+    border: 1px solid #FFA000;
+    border-radius: 4px;
+
+    
+}
+
+.btn-dropdown:hover {
+    background-color: var(--btn-hover);
+        
+}
+
+.text-btn-dropdown{
+    color: var(--navbar);
+}
+
+.text-btn-dropdown:hover{
+    color: var(--navbar);
+}
+
+
+
+.card-btn-dropdown {
+    padding: 23px 0px 39px 0px;
+}
+
+
+.btn-select {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+
+    width: 312px;
+    height: 82px;
+
+    color: var(--paragraph);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0;
+    border-color: var(--border-color)
+}
+
+.nav-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    letter-spacing: 0.15px;
+
+    color: #212529;
+}
+
+.img-parceiro {
+    width: 40px;
+    height: 40px;
+    
+    margin: 16px 32px 12px 28px;
+
+}
+
+.text-class {
+    width: 50vw;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    margin-top: 16px;
+
+    letter-spacing: 0.15px;
+
+    color: #212529;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+/*========== Desktop ============*/
+
+@media (min-width: 1024px) { 
+    .accordion-one {
+        width: 1216px;
+        padding-left: 32px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        
+
+        color: var(--paragraph);
+
+    }
+      
+
+
+}

@@ -1,0 +1,409 @@
+/* ==== Intro Page ==== */
+
+/* ==== Geral ==== */
+
+:root{
+    --primary-color1: #FF3200;
+    --btn-primary: #FF7826;
+    --btn-hover: #FF3200;
+
+    --link-color: #0D6EFD;
+
+    --card-select: #E9ECEF;
+
+    --dropdown-color: #EDEFF3;
+    --paragraph: #212529;
+    --border-color: #BFC0C1;
+
+    --navbar : #212529;
+
+    --navbar-color: #9B9D9E;
+    --navbar-hover: white;
+
+    --color-title-start: #101828;
+
+    --card-partner: #495057;
+
+    --backgrond: #F8F9FA;
+
+    
+
+
+}
+/* ==== Mobille ==== */
+
+.intro-itens {
+    display: flex;
+
+    flex-direction: column;
+    margin: 60px 32px;
+}
+
+.intro-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+
+
+    letter-spacing: 0.25px;
+
+    width: 328px;
+    height: 102px;
+
+    color: var(--color-title-start);
+
+
+    margin: 81px 64px 24px 32px;
+
+}
+
+.intro-paragraph {
+    wwidth: 328px;
+    height: 72px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+ 
+    letter-spacing: 0.5px;
+
+    color: var(--paragraph);
+    
+    margin: 24px 64px 55px 32px;
+}
+
+.intro-button {
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 38px;
+
+    
+    background: #FFA000;
+    
+    border: 1px solid #FFA000;
+    border-radius: 4px;
+
+    margin: 48px 0px 0px 32px;
+}
+
+.intro-button:hover {
+    background: var(--btn-hover);
+  
+}
+
+.intro-img {
+    height: 273.6199645996094px;
+    width: 360px;
+    margin-top: 24px;
+    margin-left: 32px;
+
+    border-radius: 0px;
+
+    display: flexcolumn;
+
+}
+
+
+/* ===== Link Page ===== */
+.card-links {
+    background-color:var(--paragraph);
+
+
+ 
+
+}
+.links-itens {
+    display: flex;
+    gap: 32px;
+    margin: 60px 32px;
+
+
+
+    flex-direction: column;
+}
+
+.link-item {
+    color: var(--navbar-hover);
+    
+    
+}
+
+.link-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--primary-color1);
+    margin: 20px 0px 29px 200px;
+
+
+}
+
+
+.link-icon1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--primary-color1);
+    margin: 20px 0px 29px 200px;
+
+
+
+}
+
+.icon-img {
+    margin-top: 10px;
+
+    width: 20px;
+    height: 15px;
+}
+
+.link-button {
+
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+
+    color: var(--paragraph);
+
+    letter-spacing: 0.15px;
+
+    width: 328px;
+    height: 38px;
+
+    background: var(--btn-primary);
+
+    border: 1px solid var(--btn-primary);
+    border-radius: 4px;
+
+    margin-bottom: 40px;
+}
+
+.link-button:hover {
+    background: var(--btn-hover);
+    border: 1px solid var(--btn-hover);
+
+}
+
+/* ==== Partner Page ==== */
+
+.card-partner {
+    background-color: var(--card-partner);
+
+}
+
+.text-partner {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+
+    padding-top: 32px;
+
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: var(--navbar-hover);
+}
+
+.icons-partner {
+    padding: 33px;
+
+}
+
+/* ==== Desktop ==== */
+@media (min-width: 1024px) { 
+    .intro-itens {      
+
+        flex-direction: row;
+        gap: 32px;
+        margin: 60px 32px;
+    }
+
+    .intro-title {
+        font-family: Roboto;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 90px;
+        letter-spacing: -0.5px;
+        text-align: left;
+
+        flex-direction: row;
+
+        width: 576px;
+        height: 180px;
+
+        color: var(--color-title-start);
+
+        letter-spacing: -0.5px;
+
+        margin: 81px 64px 24px 32px;
+
+    }
+
+    .intro-paragraph {
+        width: 576px;
+        height: 48px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+
+        letter-spacing: 0.5px;
+
+        color: var(--paragraph);
+        
+        margin: 24px 64px 55px 32px;
+    }
+
+    .intro-button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: var(--paragraph);
+
+        letter-spacing: 0.15px;
+
+        width: 150px;
+        height: 38px;
+
+        background: var(--btn-primary); 
+
+        border: 1px solid var(--btn-primary);
+        border-radius: 4px;
+
+        margin: 48px 0px 0px 32px;
+    }
+
+    .intro-button:hover {
+        background: var(--btn-hover);
+      
+    }
+
+    .intro-img {
+        width: 576px;
+        height: 436px;
+
+    }
+
+
+    /* ===== Link Page ===== */
+    .card-links {
+        background-color:var(--paragraph);
+
+    }
+    .links-itens {
+        display: flex;
+        gap: 32px;
+        margin: 60px 32px;
+
+        flex-direction: row;
+    }
+
+    .link-item {
+        color: var(--navbar-hover);
+        
+        
+    }
+
+    .link-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: var(--primary-color1);
+        margin: 20px 0px 29px 150px;
+
+    }
+
+    .link-icon:hover {
+        color: var(--btn-hover);
+    }
+
+    .link-icon1 {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: var(--primary-color1);
+        margin: 20px 0px 29px 180px;
+
+    }
+
+    .icon-img {
+        margin-top: 10px;
+
+        width: 20px;
+        height: 15px;
+    }
+
+    .link-button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: var(--paragraph);
+
+        letter-spacing: 0.15px;
+
+        width: 150px;
+        height: 38px;
+
+        background: var(--btn-primary);
+
+        border: 1px solid var(--btn-primary);
+        border-radius: 4px;
+
+        margin-bottom: 40px;
+    }
+
+    .link-button:hover {
+        background: var(--btn-hover);
+        border: 1px solid var(--btn-hover);
+
+    }
+
+    /* ==== Partner Page ==== */
+
+    .card-partner {
+        background-color: var(--card-partner);
+
+    }
+
+    .text-partner {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+
+        padding-top: 32px;
+
+        text-align: center;
+        letter-spacing: 0.15px;
+
+        color: var(--navbar-hover);
+    }
+
+    .icons-partner {
+        padding: 33px;
+
+    }
+}
+

@@ -1,0 +1,13 @@
+{
+    "cursos": [
+      {
+        "curso": "FullStack",
+        "modulo": "Conceitos Básicos",
+        "duração": "15 min",
+        "título": "Descomplicando SPA’s",
+        "URL Artigo": "https://medium.com/trainingcenter/descomplicando-spas-caa8f57bdbf3",
+        "URL Img": "https://medium.com/@kavalcante?source=post_page-----caa8f57bdbf3--------------------------------",
+        "name": "Kavalcante"
+      }
+    ]
+  }

@@ -1,0 +1,265 @@
+:root{
+    --primary-color1: #FF3200;
+    --btn-primary: #FF7826;
+    --btn-hover: #FF3200;
+
+    --link-color: #0D6EFD;
+
+    --card-select: #E9ECEF;
+
+    --dropdown-color: #EDEFF3;
+    --paragraph: #212529;
+    --border-color: #BFC0C1;
+
+    --navbar : #212529;
+
+    --navbar-color: #9B9D9E;
+    --navbar-hover: white;
+
+    --color-title-start: #101828;
+
+    --card-partner: #495057;
+
+    --backgrond: #F8F9FA;
+
+    
+
+
+}
+
+.btn-forgetpass {
+    width: 168px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    letter-spacing: 0.15px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.btn-git {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+
+    width: 336px;
+    height: 38px;
+
+    background: #F8F9FA;
+
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.btn-account {
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.btn-color {
+    background-color: #E49101;
+}
+
+.btn-login {
+    width: 312px;
+    height: 38px;
+
+
+        
+    margin-bottom: 39px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 6px 12px;
+    gap: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+}
+
+
+.border-light {
+    border: 1px solid #CED4DA
+}
+
+.card-login-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+    
+    padding: 24px;
+    gap: 32px;
+
+    width: 400px;
+    height: 552px;
+
+    background: #FFFFFF;
+    border: none;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-bottom: 28px;
+
+}
+
+.forms-item{
+    box-sizing: border-box;
+
+    margin: 20px;
+
+    width: 312px;
+    height: 38px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+
+}
+
+.tittle-ca{
+
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+}
+
+
+/*=========== RESPONSIVO ==================*/
+
+@media (min-width: 1024px) {
+    .btn-forgetpass {
+        width: 168px;
+        height: 24px;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        cursor: pointer;
+    
+        color: #212529;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        margin-top: 22px; 
+    }
+    
+    .btn-color {
+        background-color: var(--btn-primary);
+    }
+    
+    .btn-color:hover{
+        background-color: var(--btn-hover);
+    }
+
+    .btn-forgetpass:hover {
+        color: #9B9D9E;
+    }
+    
+    .btn-login {
+        width: 336px;
+        height: 38px;
+
+        
+        margin-bottom: 15px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    
+        border-radius: 4px;
+    }
+
+   
+    
+    .border-light {
+        border: 1px solid #CED4DA
+    }
+    
+    .card-login-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    
+        padding: 32px;
+        gap: 32px;
+    
+        width: 400px;
+        height: 552px;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+ 
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+
+    .forms-item{
+        box-sizing: border-box;
+
+        margin: 20px;
+
+        width: 336px;
+        height: 38px;
+
+        background: #FFFFFF;
+
+        border: 1px solid #CED4DA;
+        border-radius: 4px;
+
+    }
+}

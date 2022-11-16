@@ -1,0 +1,80 @@
+:root{
+    --primary-color1: #FF3200;
+    --btn-primary: #FF7826;
+    --btn-hover: #FF3200;
+
+    --link-color: #0D6EFD;
+
+    --card-select: #E9ECEF;
+
+    --dropdown-color: #EDEFF3;
+    --paragraph: #212529;
+    --border-color: #BFC0C1;
+
+    --navbar : #212529;
+
+    --navbar-color: #9B9D9E;
+    --navbar-hover: white;
+
+    --color-title-start: #101828;
+
+    --card-partner: #495057;
+
+    --backgrond: #F8F9FA;
+
+    
+
+
+}
+
+.nav-menu {
+    background-color: var(--navbar);
+}
+
+.nav-item1 {
+    color: var(--navbar-color);
+    text-decoration: none; 
+    cursor: pointer;
+
+    height: 24px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.nav-item1:hover {
+    color: var(--navbar-hover);
+    text-decoration: none; 
+
+}
+
+.nav-itens {
+    gap: 32px;
+}
+
+.nav-card {
+    margin: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-login{
+
+
+
+    color: var(--navbar-color);
+
+
+}
+
+.button-login:hover{
+
+
+    color: var(--navbar-hover);
+
+
+}
